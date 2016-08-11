@@ -9,7 +9,7 @@
 
 在原有的[Modal Quiz with Radio button](http://bootsnipp.com/snippets/featured/modal-quiz-with-radio-button) 中为单测试单网页风格，我对之进行了修改，成为了多网页多测试。
 
-![开始页](http://7ktu2f.com1.z0.glb.clouddn.com/quiz1.jpg)
+![开始页](http://7ktu2f.com1.z0.glb.clouddn.com/quiz11.jpg)
 
 App首页 
 
@@ -21,7 +21,7 @@ App首页
 
 动画效果示例
 
-![结束页](http://7ktu2f.com1.z0.glb.clouddn.com/quiz4.jpg)
+![结束页](http://7ktu2f.com1.z0.glb.clouddn.com/quiz44.jpg)
 
 结束页示例
 
