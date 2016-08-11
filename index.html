@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>你可能有注意力缺失问题吗？</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    
+<!--http://bootsnipp.com/snippets/featured/modal-quiz-with-radio-button-->
+<div class="container-fluid bg-info">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h3 id="question"></h3>  <!--通过选择器填充H3 和span<span class="label label-info" id="qid">1</span >-->
+        </div>
+        <div class="modal-body">
+            <div class="col-xs-3 col-xs-offset-5">
+               <div id="loadbar" style="display: none;">   <!--loadbar div最开始是隐藏的。-->
+                  <div class="blockG" id="rotateG_01"></div>
+                  <div class="blockG" id="rotateG_02"></div>
+                  <div class="blockG" id="rotateG_03"></div>
+                  <div class="blockG" id="rotateG_04"></div>
+                  <div class="blockG" id="rotateG_05"></div>
+                  <div class="blockG" id="rotateG_06"></div>
+                  <div class="blockG" id="rotateG_07"></div>
+                  <div class="blockG" id="rotateG_08"></div>
+              </div>
+          </div>
+          
+          <div id="quiz-start">
+          <br/>
+          <p >测测你是否有<b>注意力缺失问题？</b></p>
+          <button type="button" class="btn btn-primary btn-lg btn-block" id='start-quiz'>点击开始测试</button>
+          <p>Created By <a href="http://hktkdy.com" target="_blank">zhangolve</a></p>
+          </div>
+          
+          <div class="quiz" id="quiz" data-toggle="buttons">  <!--通过选择器填充上面的几个标签-->
+          
+           <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="0">从不</label>
+           <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1">很少</label>
+           <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2">有时</label>
+           <label class="element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3">常常</label>
+            <label class="element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="4">几乎总是如此</label>
+       </div>
+          <div id="quiz-results">
+          <p></p>
+          <p id="quiz-results-score"></p>
+          <p id="quiz-results-message"></p>
+    
+    </div>
+         <button type="button" class="btn btn-primary btn-lg btn-block" id='testAgain'>再试一次</button>
+          <div id="share"></div>
+      
+
+   </div>
+   <div class="modal-footer text-muted">
+    <span id="answer"></span>
+</div>
+</div>
+</div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
+
+
+<!--在最后添加分享按钮-->
+<!--添加再试一次功能-->
+<!--添加科学松鼠会来源-->
+<!--添加随机生成问题-->
